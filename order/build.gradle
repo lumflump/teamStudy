@@ -20,12 +20,7 @@ configurations {
 }
 
 repositories {
-//	mavenCentral()
-	maven {
-		allowInsecureProtocol true
-		url "https://nexus-nucube.cloud.lguplus.co.kr/repository/ngup-public/"
-	}
-
+	mavenCentral()
 }
 
 dependencies {
