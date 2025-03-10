@@ -1,0 +1,10 @@
+pluginManagement {
+    repositories {
+        maven {
+            allowInsecureProtocol true
+            url = "https://nexus-nucube.cloud.lguplus.co.kr/repository/ngup-public/"
+
+        }
+    }
+}
+rootProject.name = 'order'
